@@ -1,0 +1,14 @@
+filebeat.inputs:
+- type: filestream
+  paths:
+    - /var/log/nginx/*.log
+  enabled: true
+  exclude_files: ['.gz$']
+  prospector.scanner.exclude_files: ['.gz$']
+
+# Блок output.elasticsearch закомментирован
+# output.elasticsearch:
+#   hosts: ["localhost:9200"]
+
+output.logstash:
+  hosts: ["10.17.86.141:5400"]
