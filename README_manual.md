@@ -12,6 +12,10 @@ Note:
 
 ![](https://github.com/AlexIridium/linux_basic_doc1/blob/main/pictures/%D0%BE%D0%B1%D1%89%D0%B0%D1%8F%20%D1%81%D1%85%D0%B5%D0%BC%D0%B0.PNG)
 
+IP адрес ВМ1 - 10.17.86.172
+
+IP адрес ВМ2 - 10.17.86.141
+
 ## Сервер №1 / Виртуальная машина №1
 
 Создайте папки и дайте им необходимые права
